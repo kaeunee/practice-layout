@@ -8,53 +8,42 @@
 </head>
 <body>
 
-    <div class="main-background">
-        <h4 class="main-title">hi, it's our store!</h4>
-        <div class="main-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-            Necessitatibus, tempore illo fugit commodi consequuntur ex, ratione magni,<br>
-            aliquam illum corrupti minima fugiat voluptates saepe distinctio ad sapiente<br>
-            totam atque doloremque.</p>
-            <button class="main-button">구매하기</button>
-        </div>
-    </div>
-    <div class="middle-content">
-        <h4>How we design our shoes</h4>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam sed eius in et odio deleniti eligendi,
-        neque tempora sit reprehenderit unde quo distinctio, dolorem fugiat eos inventore repellendus,
-        laudantium temporibus.</p>
-    </div>
+<div class="cart-bg">
+    <h3>Your Shopping cart</h3>
+    <table class="cart-table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>ITEM</th>
+                <th>AMOUNT</th>
+                <th>PRICE</th>
+                <th>TOTAL</th>
+            </tr>
+        </thead>
 
-    <div class="bg-bk">
-    <div class="bg-white">
-        <form>
-            <div class="w-100">
-                <h2>Contact Us</h2>
-                <p>Your Email</p>
-                <input class="form-input" type="email" placeholder="email@example.com">
-            </div>
-            <div class="w-50">
-                <p>First name</p>
-                <input class="form-input" type="text">
-            </div>
-            <div class="w-50">
-                <p>Last name</p>
-                <input class="form-input" type="text">
-            </div>
-            <div style="clear: both;"></div>
-            <div class="w-100">
-                <p>Message</p>
-                <input class="form-input" type="textarea">
-            </div>
-            <div>
-                <input id="sub" type="checkbox">
-                <label for="sub">Subscribe</label>
-            <button type="submit" class="yellow-bt">send</button>
-            </div>
-        </form>
-    </div>
-    </div>
-    
-    
+        <tbody>
+            <tr>
+                <td><img src="img/자두.jpeg" width="50px"></td>
+                <td class="cell-long">SONY<br>FE 70-200 mm F2.8 GM OSS</td>
+                <td>1</td>
+                <td>1979.00</td>
+                <td>1979.00</td>
+            </tr>
+
+            <tr>
+                <td>pic</td>
+                <td>SONY<br>Sonnar T E 24mm F1.8ZA</td>
+                <td>1</td>
+                <td>989.00</td>
+                <td>989.00</td>
+            </tr>
+
+            <tr>
+                <td colspan="5" style="text-align: right;">2968.00</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
     
 </body>
 </html>

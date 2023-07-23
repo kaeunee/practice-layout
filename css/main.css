@@ -1,94 +1,35 @@
 div {
     box-sizing: border-box;
 }
-.main-background {
-    width:100%;
-    height:500px;
-    background-image: url(../img/자두.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* 배경을 div에 꽉채우고싶을때 cover/contain(배경이 짤리지 않게)*/
-    background-position: center;
-    /* background-attachment: fixed; */
-    /* 스크롤시 배경 위치 조정 가능 */
-    /* filter: brightness(70%) saturate(200%); */
-    /* 인스타 피드처럼 효과 박스 전체에 보정 입히기*/
-    padding: 1px;
+
+table {
+    border-collapse: collapse
+    /* 테이블 간격 없앰 */
 }
 
-.main-title {
-    color : white;
-    font-size: 40px;
-    margin-top: 130px;
-    position: relative;
-    text-align: center;
+td, th {
+    border: 1px solid black; 
 }
 
-.main-content {
-    color: #ffffff;
-    text-align: center;
-}
-
-.main-button {
-    padding: 15px;
-    font-size: 20px;
-    background-color: white;
-    border: none;
-    border-radius: 10px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 150px;
-    bottom: 500px;
-    /* right: 50px; */
-}
-
-.middle-content {
-    width: 60%;
-    max-width: 600px;
-    padding: 30px;
-    text-align: center;
-    height: 250px;
-    background-color: #eee;
-    position: relative;
-    top: -20px;
-    margin: auto;
-    box-sizing: border-box;
-}
-
-.bg-bk {
-    background-color: black;
-    padding: 30px;
-}
-.bg-white {
-    background-color: white;
-    padding: 30px;
-    width: 80%;
-    max-width: 600px;
-    margin: auto;
-}
-
-.form-input {
+.cart-bg {
     width: 100%;
-    padding: 10px;
-    font-size: 20px;
-    border: 1px solid black;
-    border-radius: 8px;
-    box-sizing: border-box;
+    background-color: #c2d3de;
+    padding: 30px;
 }
 
-.w-100{
-    padding: 10px;
-}
-.w-50 {
-    width: 50%;
-    float: left;
-    padding: 10px;
+.cart-table {
+    background-color: white;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    border-radius: 10px;
 }
 
-.yellow-bt {
-    padding: 10px;
-    display: block;
-    margin-left: auto;
+th,td {
+    padding: 15px;
+    border: 2px solid #c2d3de;
+}
+
+.cell-long {
+    width: 700px;
 }
